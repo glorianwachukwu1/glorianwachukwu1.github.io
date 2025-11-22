@@ -1244,11 +1244,12 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 
   /**
-   * #PORTFOLIO, BLOG 
+   * #PORTFOLIO, BLOG   Blog is now Project
    */
 
   .project-img,
-  .blog-banner-box { height: auto; }
+  .project-banner-box { height: auto; }
+  .research-banner-box { height: auto; }
 
 }
 
@@ -1996,5 +1997,34 @@ textarea.form-input::-webkit-resizer { display: none; }
 	 */
 
   .timeline-text { max-width: 700px; }
+
+ .research-logo {
+    max-width: 100px !important; /* Set maximum width for the images */
+    max-height: 100px !important; /* Maintain aspect ratio */
+}
+
+.research-post-item {
+  display: flex;
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  text-align: left; /* Align text to the left */
+}
+
+.research-logo-box {
+  flex: 0 0 auto; /* Prevent image from growing */
+  margin-right: 20px; /* Adjust spacing between image and text */
+  display: flex; /* Use flexbox for logo box */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+}
+
+.research-content {
+  flex: 1; /* Allow content to grow to fill remaining space */
+}
+
+
+
+
+
 
 }
