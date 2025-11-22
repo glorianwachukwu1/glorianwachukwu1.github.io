@@ -1864,7 +1864,7 @@ textarea.form-input::-webkit-resizer { display: none; }
    * Portfolio_Now_highlights
    */
 
-  .highlights-list { grid-template-columns: repeat(3, 1fr); }
+  .spotlight-list { grid-template-columns: repeat(3, 1fr); }
 
 
 
