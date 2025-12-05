@@ -1103,21 +1103,3 @@ section .container {
 
 
 
-.about-me .content p,
-.about-me .content .justify {
-  text-align: justify !important;
-  text-justify: inter-word;
-}
-
-
-
-/* Fix ABOUT paragraph size */
-.about-me .content p {
-  font-size: 16px !important;
-  line-height: 1.7;
-  text-transform: none !important;
-  font-weight: 400 !important;
-}
-
-
-
