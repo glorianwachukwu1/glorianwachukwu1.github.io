@@ -1096,3 +1096,11 @@ section .container {
     transform: translateX(-50%);
   }
 }
+
+
+/* Custom paragraph alignment */
+.justify {
+  text-align: justify !important;
+  text-justify: inter-word;
+}
+
