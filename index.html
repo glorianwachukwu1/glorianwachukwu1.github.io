@@ -714,6 +714,37 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
 
+
+
+
+
+
+
+
+
+
+  <script>
+const circle = document.querySelector(".floating-circle");
+
+
+let x = 0, y = 0;
+let angle = 0;
+
+function animate() {
+  angle += 0.015;
+
+  // movement path like the React template
+  const floatX = Math.sin(angle) * 20;
+  const floatY = Math.cos(angle) * 15;
+
+  circle.style.transform = `translate(${floatX}px, ${floatY}px)`;
+
+  requestAnimationFrame(animate);
+}
+
+animate();
+</script>
+
 </body>
 
 </html>
