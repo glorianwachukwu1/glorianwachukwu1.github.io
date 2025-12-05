@@ -1098,9 +1098,12 @@ section .container {
 }
 
 
-/* Custom paragraph alignment */
-.justify {
+
+
+.about-me .content p,
+.about-me .content .justify {
   text-align: justify !important;
   text-justify: inter-word;
 }
+
 
