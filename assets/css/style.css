@@ -1107,3 +1107,37 @@ section .container {
 }
 
 
+
+
+
+/* INTERESTS – Premium Hover Animation */
+.interests .icon-box {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background: #09203a;
+  transition: transform 0.25s ease, box-shadow 0.25s ease, background 0.25s ease;
+  border-radius: 8px;
+}
+
+/* What happens when you hover */
+.interests .icon-box:hover {
+  transform: translateY(-6px); /* Lift upward */
+  background: #0d2b4e; /* Slight glow/light */
+  box-shadow: 0 12px 22px rgba(0, 0, 0, 0.35); /* Soft float shadow */
+}
+
+/* Icon inside box */
+.interests .icon-box i {
+  font-size: 32px;
+  padding-right: 10px;
+  transition: transform 0.3s ease;
+}
+
+/* Icon animation ONLY on hover */
+.interests .icon-box:hover i {
+  transform: scale(1.18) rotate(3deg);
+}
+
+
+
