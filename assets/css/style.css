@@ -478,33 +478,35 @@ section .container {
 /*--------------------------------------------------------------
 # Interests
 --------------------------------------------------------------*/
+/* INTERESTS – Premium Hover Animation */
 .interests .icon-box {
   display: flex;
   align-items: center;
   padding: 20px;
   background: #09203a;
-  transition: ease-in-out 0.3s;
+  border-radius: 8px;
+  transition: transform 0.25s ease, box-shadow 0.25s ease, background 0.25s ease;
 }
 
+/* Hover effect */
+.interests .icon-box:hover {
+  transform: translateY(-6px);  /* soft float */
+  background: #0d2b4e;          /* glow */
+  box-shadow: 0 12px 22px rgba(0, 0, 0, 0.35); /* shadow */
+}
 
+/* Icon styling */
 .interests .icon-box i {
   font-size: 32px;
   padding-right: 10px;
-  line-height: 1;
+  transition: transform 0.3s ease;
 }
 
-.interests .icon-box h3 {
-  font-weight: 700;
-  margin: 0;
-  padding: 0;
-  line-height: 1;
-  font-size: 16px;
-  color: #fff;
+/* Icon animation on hover */
+.interests .icon-box:hover i {
+  transform: scale(1.18) rotate(3deg);
 }
 
-.interests .icon-box:hover {
-  background: #042b56eb;
-}
 
 /*--------------------------------------------------------------
 # Testimonials
@@ -1106,38 +1108,6 @@ section .container {
   text-justify: inter-word;
 }
 
-
-
-
-
-/* INTERESTS – Premium Hover Animation */
-.interests .icon-box {
-  display: flex;
-  align-items: center;
-  padding: 20px;
-  background: #09203a;
-  transition: transform 0.25s ease, box-shadow 0.25s ease, background 0.25s ease;
-  border-radius: 8px;
-}
-
-/* What happens when you hover */
-.interests .icon-box:hover {
-  transform: translateY(-6px); /* Lift upward */
-  background: #0d2b4e; /* Slight glow/light */
-  box-shadow: 0 12px 22px rgba(0, 0, 0, 0.35); /* Soft float shadow */
-}
-
-/* Icon inside box */
-.interests .icon-box i {
-  font-size: 32px;
-  padding-right: 10px;
-  transition: transform 0.3s ease;
-}
-
-/* Icon animation ONLY on hover */
-.interests .icon-box:hover i {
-  transform: scale(1.18) rotate(3deg);
-}
 
 
 
