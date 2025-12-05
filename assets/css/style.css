@@ -135,6 +135,13 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+
+
+
+
+
+
+
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -1088,6 +1095,54 @@ section .container {
 .credits a:hover {
   color: #fff;
 }
+
+
+
+
+
+
+/* --------------------------------------------------------------
+# Floating Circle (Homepage Animation)
+-------------------------------------------------------------- */
+.floating-circle {
+  position: absolute;
+  bottom: 40px;
+  left: 40px;
+  width: 140px;
+  height: 140px;
+  z-index: 9999;
+  animation: floatMove 6s ease-in-out infinite;
+  pointer-events: none; /* keeps it clickable-through */
+}
+
+.floating-circle img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 50%;
+  filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.4));
+}
+
+@keyframes floatMove {
+  0% { transform: translate(0, 0) rotate(0deg); }
+  50% { transform: translate(18px, -18px) rotate(6deg); }
+  100% { transform: translate(0, 0) rotate(0deg); }
+}
+
+/* Mobile responsive circle */
+@media (max-width: 768px) {
+  .floating-circle {
+    width: 95px;
+    height: 95px;
+    bottom: 20px;
+    left: 20px;
+  }
+}
+
+
+
+
+
 
 @media (max-width: 992px) {
   .credits {
