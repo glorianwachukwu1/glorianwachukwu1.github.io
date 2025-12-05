@@ -1103,3 +1103,12 @@ section .container {
 
 
 
+/* Fix ABOUT paragraph size */
+.about-me .content p {
+  font-size: 15px !important;
+  line-height: 1.7;
+  font-weight: 400;
+  text-transform: none !important;
+}
+
+
