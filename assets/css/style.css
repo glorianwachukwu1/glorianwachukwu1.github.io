@@ -1117,7 +1117,7 @@ section .container {
   height: 78px;
   object-fit: contain;
   margin-bottom: 0; /* not needed in row layout */
-  /*transition: 0.3s ease-in-out; */
+  transition: 0.3s ease-in-out; 
 }
 
 .course-card:hover img {
