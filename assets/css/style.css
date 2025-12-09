@@ -1098,50 +1098,41 @@ section .container {
 }
 
 
-/*--------------------------------------------------------------
-# Courses Section Styling (Custom)
---------------------------------------------------------------*/
-
 .course-card {
   background: #0e1a2b;
-  border-radius: 10px;
-  padding: 20px;
-  transition: 0.3s ease;
-  text-align: left;
+  border-radius: 12px;
+  padding: 14px 16px;
+  transition: 0.25s ease;
   border: 1px solid rgba(255,255,255,0.08);
-  height: 100%;
+  height: auto;
+  min-height: 180px;   /* reduced from ~300px */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
-
-.course-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
-}
-
 .course-card img {
-  width: 90px;
-  height: 90px;
+  width: 65px;       /* smaller */
+  height: 65px;      /* smaller */
   object-fit: contain;
-  margin-bottom: 15px;
-  display: block;
-}
-
-.course-title {
-  color: #12d640;
-  font-size: 18px;
-  font-weight: 600;
   margin-bottom: 8px;
 }
-
+.course-title {
+  color: #12d640;
+  font-size: 15px;   /* reduced */
+  font-weight: 600;
+  line-height: 1.25;
+  margin-bottom: 4px;
+}
 .course-provider {
   color: #bbb;
+  font-size: 12px;
+  margin-bottom: 6px;
+}
+.course-desc {
+  color: #ccc;
   font-size: 13px;
-  font-weight: 500;
+  line-height: 1.3;
+  margin-bottom: 0;
 }
 
-.course-desc {
-  color: #fff;
-  font-size: 14px;
-  margin-top: 5px;
-  line-height: 1.4;
-}
 
