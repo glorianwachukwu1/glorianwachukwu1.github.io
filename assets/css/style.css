@@ -1099,25 +1099,30 @@ section .container {
 
 
 
+
+
+
+
+
 .course-card {
-  background: #0e1a2b;
-  border-radius: 12px;
-  padding: 14px 16px;
-  transition: 0.25s ease;
-  border: 1px solid rgba(255,255,255,0.08);
-  height: auto;
-  min-height: 230px;   /* reduced from ~180 THEN 300px */
+  min-height: 220px;
   display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
 }
 
 .course-card img {
-  width: 78px;       /* smaller */
-  height: 78px;      /* smaller */
+  width: 78px;
+  height: 78px;
   object-fit: contain;
-  margin-bottom: 8px;
+  margin-bottom: 0; /* not needed in row layout */
 }
+
+
+
+
+
 
 .course-title {
   color: #12d640;
