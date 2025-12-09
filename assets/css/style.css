@@ -1209,3 +1209,12 @@ section .container {
 }
 
 
+/* Enable highlighting and copying ALWAYS */
+.education-card *, 
+.course-card *,
+#education *, 
+#courses * {
+  user-select: text !important;
+}
+
+
