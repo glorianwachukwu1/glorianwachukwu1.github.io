@@ -1106,15 +1106,15 @@ section .container {
   transition: 0.25s ease;
   border: 1px solid rgba(255,255,255,0.08);
   height: auto;
-  min-height: 180px;   /* reduced from ~300px */
+  min-height: 230px;   /* reduced from ~180 THEN 300px */
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
 }
 
 .course-card img {
-  width: 58px;       /* smaller */
-  height: 58px;      /* smaller */
+  width: 78px;       /* smaller */
+  height: 78px;      /* smaller */
   object-fit: contain;
   margin-bottom: 8px;
 }
