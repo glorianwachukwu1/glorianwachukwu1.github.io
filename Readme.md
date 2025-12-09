@@ -1,7 +1,7 @@
-# Personal Portfolio 🔥
+# Personal Portfolio 
 > https://glorianwachukwu1.github.io
 
-:star: Star me on GitHub — it helps!
+
 
   
 
