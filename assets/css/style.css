@@ -1145,3 +1145,14 @@ section .container {
   margin-bottom: 0;
 }
 
+
+
+.course-card img {
+  transition: transform 0.25s ease;
+}
+
+.course-card img:hover {
+  transform: scale(1.15);
+}
+
+
