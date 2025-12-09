@@ -1096,3 +1096,52 @@ section .container {
     transform: translateX(-50%);
   }
 }
+
+
+/*--------------------------------------------------------------
+# Courses Section Styling (Custom)
+--------------------------------------------------------------*/
+
+.course-card {
+  background: #0e1a2b;
+  border-radius: 10px;
+  padding: 20px;
+  transition: 0.3s ease;
+  text-align: left;
+  border: 1px solid rgba(255,255,255,0.08);
+  height: 100%;
+}
+
+.course-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+.course-card img {
+  width: 90px;
+  height: 90px;
+  object-fit: contain;
+  margin-bottom: 15px;
+  display: block;
+}
+
+.course-title {
+  color: #12d640;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.course-provider {
+  color: #bbb;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.course-desc {
+  color: #fff;
+  font-size: 14px;
+  margin-top: 5px;
+  line-height: 1.4;
+}
+
