@@ -1100,23 +1100,45 @@ section .container {
 
 .course-card {
   background: #0e1a2b;
-  border-radius: 12px;
-  padding: 14px 16px;
-  transition: 0.25s ease;
-  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 10px;
+  padding: 12px 14px;
+  border: 1px solid rgba(255,255,255,0.1);
   height: auto;
-  min-height: 180px;
+  min-height: unset; /* remove forced height */
   display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
+  flex-direction: row; /* make card horizontal */
+  align-items: center;
+  gap: 12px;
 }
 
 .course-card img {
-  width: 60px;        /* increased from 48px */
-  height: 60px;       /* increased from 48px */
+  width: 48px;
+  height: 48px;
   object-fit: contain;
-  margin-bottom: 10px;
 }
 
-.course-t
+.course-text {
+  flex: 1;
+}
+
+.course-title {
+  color: #12d640;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.course-provider {
+  color: #bbb;
+  font-size: 11px;
+  margin: 2px 0;
+}
+
+.course-desc {
+  color: #ccc;
+  font-size: 12px;
+  margin: 0;
+  line-height: 1.25;
+}
+
 
