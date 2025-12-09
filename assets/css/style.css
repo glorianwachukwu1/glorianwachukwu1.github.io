@@ -1106,22 +1106,22 @@ section .container {
   transition: 0.25s ease;
   border: 1px solid rgba(255,255,255,0.08);
   height: auto;
-  min-height: 180px;
+  min-height: 180px;   /* reduced from ~300px */
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
 }
 
 .course-card img {
-  width: 48px;
-  height: 48px;
+  width: 48px;       /* smaller */
+  height: 48px;      /* smaller */
   object-fit: contain;
   margin-bottom: 8px;
 }
 
 .course-title {
   color: #12d640;
-  font-size: 14px;
+  font-size: 14px;   /* reduced */
   font-weight: 600;
   line-height: 1.25;
   margin-bottom: 4px;
