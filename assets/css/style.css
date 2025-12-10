@@ -1131,14 +1131,14 @@ section .container {
 }
 
 .course-provider {
-  color: #ffffff;
+  color:#d4b24c;
   font-size: 12px;
   margin-bottom: 6px;
 }
 
 .course-desc {
   color: #ffffff;
-  font-size: 16px;
+  font-size: 13px;
   line-height: 1.3;
   margin-bottom: 0;
 }
@@ -1190,7 +1190,7 @@ section .container {
 }
 
 .education-degree {
-  color: #ffffff;
+  color: #d4b24c;
   font-size: 16px;
   margin-bottom: 6px;
 }
@@ -1203,7 +1203,7 @@ section .container {
 
 .education-list {
   color: #ffffff;
-  font-size: 16px;
+  font-size: 13px;
   padding-left: 18px;
   margin-bottom: 0;
 }
