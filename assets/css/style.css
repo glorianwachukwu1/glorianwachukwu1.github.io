@@ -1206,10 +1206,6 @@ section .container {
 }
 
 
-
-
-
-
 .course-card {
   background: #0e1a2b;
   border-radius: 12px;
@@ -1333,5 +1329,19 @@ section .container {
 .row::after {
   content: none !important;
   display: none !important;
+}
+
+
+/* Remove bullets ONLY in Skills section */
+.skill-list,
+.skill-list li {
+  list-style: none !important;
+  padding-left: 0 !important;
+  margin-left: 0 !important;
+}
+
+.skills-section ul,
+.skills-section li {
+  list-style-type: none !important;
 }
 
