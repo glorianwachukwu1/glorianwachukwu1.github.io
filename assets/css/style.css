@@ -1232,7 +1232,7 @@ section .container {
 
 .course-title {
   color: #12d640;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 600;
   line-height: 1.25;
   margin-bottom: 4px;
@@ -1240,13 +1240,13 @@ section .container {
 
 .course-provider {
   color:#d4b24c;
-  font-size: 16px;
+  font-size: 14px;
   margin-bottom: 6px;
 }
 
 .course-desc {
   color: #ffffff;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.3;
   margin-bottom: 0;
 }
@@ -1291,7 +1291,7 @@ section .container {
 
 .education-school {
   color: #12d640;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 600;
   line-height: 1.25;
   margin-bottom: 4px;
@@ -1299,13 +1299,13 @@ section .container {
 
 .education-degree {
   color: #d4b24c;
-  font-size: 18px;
+  font-size: 17px;
   margin-bottom: 6px;
 }
 
 .education-label {
   color: #ffffff;
-  font-size: 18px;
+  font-size: 16px;
   margin-bottom: 2px;
 }
 
