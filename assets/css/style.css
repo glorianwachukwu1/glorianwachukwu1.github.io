@@ -1325,14 +1325,13 @@ section .container {
   user-select: text !important;
 }
 
-/* Remove carousel dots ONLY in Skills section */
-#skills .owl-dots,
-#skills .owl-dot {
-  display: none !important;
-}
 
-/* Remove white dots inside skill cards */
-#skills *::before {
+
+
+/* Fix for white dots showing between items */
+.row::before,
+.row::after {
+  content: none !important;
   display: none !important;
 }
 
