@@ -1331,3 +1331,8 @@ section .container {
   display: none !important;
 }
 
+/* Remove white dots inside skill cards */
+#skills *::before {
+  display: none !important;
+}
+
