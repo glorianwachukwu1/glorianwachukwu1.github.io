@@ -84,6 +84,9 @@
 <li><a href="#links"> <span>Resume & Links</span></a></li> -->
           
           <li><a href="#contacts"> <span>Contact</span></a></li>
+          
+          <li><button id="theme-toggle" class="theme-toggle-btn">🌙</button></li>
+
 
         </ul>
       </nav><!-- .nav-menu -->
@@ -1026,6 +1029,38 @@ I’m currently exploring opportunities in machine learning, data analytics, wor
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
+
+
+
+
+
+
+
+
+
+  <script>
+  const toggleBtn = document.getElementById('theme-toggle');
+  const body = document.body;
+
+  toggleBtn.addEventListener('click', () => {
+    body.classList.toggle('light-mode');
+
+    if (body.classList.contains('light-mode')) {
+      localStorage.setItem('theme', 'light');
+      toggleBtn.textContent = "☀️";
+    } else {
+      localStorage.setItem('theme', 'dark');
+      toggleBtn.textContent = "🌙";
+    }
+  });
+
+  if (localStorage.getItem('theme') === 'light') {
+    body.classList.add('light-mode');
+    toggleBtn.textContent = "☀️";
+  }
+</script>
+
 
 </body>
 
